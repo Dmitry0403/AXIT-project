@@ -1,0 +1,18 @@
+.section--bg-1 {
+    background: linear-gradient(124deg, rgba(0,0,0,0.55) 55%, rgba(0,0,0,0.55) 100%), url('../img/bg-1.png') no-repeat;
+    background-size: cover;
+}
+.section{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.section--bg-2 {
+    background:linear-gradient(153deg, rgba(0,0,0,0.45) 0%, rgba(0,0,0,0.45) 100%), url('../img/bg-2.png') no-repeat;
+    background-size: cover;
+}
+
+
+.section--caption{
+    padding-bottom: 38px;
+  }
+  

@@ -1,0 +1,17 @@
+.footer{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 15px;
+    color: rgba(255, 255, 255, 0.5);
+    font-weight: 400;
+    font-size: 12px;
+    background-color: rgba(0, 0, 0, 1);
+} 
+.social__icons [class^="ic-"], [class*=" ic-"] {
+    font-size: 23px;
+    letter-spacing: 25px;
+    color: rgba(255, 255, 255, 0.7);
+}
+

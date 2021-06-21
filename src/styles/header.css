@@ -1,0 +1,35 @@
+.header {
+  background-color: #000;
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 5;
+}
+
+.header__wrapper {
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__logo img {
+  height: 31px;
+  width: 68px;
+}
+
+
+@media screen and (max-width: 600px) {
+  .header{
+    position: unset;
+  }
+  .header__wrapper {
+    flex-direction: column;
+    justify-content: unset;
+    align-items: unset;
+  }
+  .header__logo{
+    margin: 20px;
+    margin-top: 0;
+}
+}

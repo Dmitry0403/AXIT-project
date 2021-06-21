@@ -1,0 +1,27 @@
+.cards-container {
+  display: flex;
+  margin-top: 67px;
+}
+
+.cards-container__cell {
+  width: calc(100% / 3);
+  margin-right: 32px;
+}
+
+.cards-container__cell:last-child{
+  margin-right: 0;
+}
+
+@media (max-width: 600px) {
+  .cards-container {
+    flex-direction: column;
+  }
+  .cards-container__cell {
+    width: 100%;
+    margin-right:0;
+    margin-bottom: 50px;
+  }
+  .cards-container__cell:last-child{
+    margin-bottom: 0;
+  }
+}

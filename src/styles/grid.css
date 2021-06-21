@@ -1,0 +1,33 @@
+.grid {
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.grid--col-1 .grid__cell {
+  width: 100%;
+}
+
+.grid--col-2 .grid__cell {
+  width: calc(100% / 2);
+}
+
+.grid__cell--position-right{
+    display: flex;
+    justify-content: flex-end;
+}
+@media screen and (max-width: 600px) {
+  .grid--col-1-m .grid__cell {
+    width: 100%;
+  }
+  .grid--direction-col-m {
+    flex-direction: column;
+  }
+  .grid__cell {
+    margin-bottom: 50px;
+  }
+
+  .grid__cell:last-child {
+    margin-bottom: 0;
+  }
+}

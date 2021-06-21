@@ -1,0 +1,40 @@
+.input, textarea{
+    border: none;
+    outline: none;
+    margin: 0;
+    padding:0 0 15px 0;
+    font-family: 'Open Sans';
+    font-size: 25px;
+    color: #000;
+    border-bottom: 1px solid #bdbdbd;
+    width: 100%;   
+    resize: none
+}
+
+
+.input::-webkit-input-placeholder{
+    color: rgba(189, 189, 189, 1);
+    font-size: 14px;
+    
+}
+.input::-moz-placeholder{
+    color: rgba(189, 189, 189, 1);
+    font-size: 14px;
+    
+}
+.input:-ms-input-placeholder{
+    color: rgba(189, 189, 189, 1);
+    font-size: 14px;
+    
+}
+.input::-ms-input-placeholder{
+    color: rgba(189, 189, 189, 1);
+    font-size: 14px;
+    
+}
+.input::placeholder{
+    color: rgba(189, 189, 189, 1);
+    font-size: 14px;
+    
+}
+

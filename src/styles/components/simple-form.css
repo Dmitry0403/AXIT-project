@@ -1,0 +1,45 @@
+.simple-form{
+    background: rgba(255, 255, 255, 1);
+    border-radius: 8px;
+    position: relative;
+    overflow: hidden;
+    max-width: 372px;
+}
+
+.simple-form__head{
+    padding: 20px 60px;
+    
+}
+
+.simple-form__title{
+    text-align: center;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.simple-form__accion{
+    color:  rgba(236, 121, 121, 1);
+
+}
+
+.simple-form__body{
+    padding: 45px 60px 60px 60px;
+}
+
+.simple-form__button{
+    color: #fff;
+    background: rgba(236, 121, 121, 1);
+    text-align: center;
+    width: 100%;
+    font-family: 'Open Sans';
+    font-weight: 600;
+    font-size: 15px;
+    border: none;
+    padding: 19px 10px 18px 10px;
+    cursor: pointer;
+}
+
+.simple-form__row{
+    margin-bottom: 20px;
+}
+

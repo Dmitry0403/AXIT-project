@@ -1,0 +1,26 @@
+.card {
+  text-align: center;
+}
+
+.card__img {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 70px;
+  height: 70px;
+  border: 1px solid #e72424;
+  border-radius: 50%;
+  margin-bottom: 30px;
+}
+
+.card__title {
+  font-size: 20px;
+  margin-bottom: 16px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.card__text {
+  font-size: 14px;
+  text-align: center;
+}

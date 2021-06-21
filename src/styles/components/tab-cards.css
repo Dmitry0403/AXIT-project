@@ -1,0 +1,174 @@
+/* .container-tabs { 
+  display: flex;
+}
+
+.tab-cards {
+  margin-right: 118px;
+}
+.tab {
+  display: inline-flex;
+  min-width: 112px;
+  min-height: 110px;
+  margin-bottom: 10px;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 15px;
+  color: rgba(255, 255, 255, 1);
+  background-color: rgba(51, 51, 51, 1);
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+  transition: transfom 0.3s ease;
+}
+
+.tab:last-child {
+  margin-bottom: 0px;
+}
+
+.tab:hover,
+.tab:active,
+.tab:focus {
+  background-color: rgba(236, 121, 121, 1);
+  cursor: pointer;
+  transform: scale(1.05);
+}
+.tab-text h2 {
+  font-weight: 700;
+  font-size: 20px;
+  color: rgba(0, 0, 0, 1);
+  margin-top: 0px;
+  margin-bottom: 58px;
+}
+
+.tab-text {
+  text-transform: uppercase;
+  margin-right: 50px;
+ 
+}
+
+.tab-text p {
+  font-weight: 400;
+  font-size: 14px;
+  color: rgba(134, 135, 139, 1);
+  margin-bottom: 89px;
+}
+
+
+.button-download--tab {
+  background-color: rgba(236, 121, 121, 1);
+  text-transform: capitalize;
+}
+
+.bg-tab {
+  background: url("/src/img/bg-tab2.png") no-repeat;
+  min-width: 320px;
+}
+
+@media screen and (max-width:600px) {
+    .container-tabs {
+        display: block;
+       width: 100%;
+    }
+
+    .tab-cards{
+        margin-bottom: 20px;
+    }
+}
+ */
+
+ .container-tabs { 
+  display: flex;
+  position: relative;
+}
+
+.tab-cards {
+  margin-right: 118px;
+}
+.tab {
+  display: inline-flex;
+  min-width: 112px;
+  min-height: 110px;
+  margin-bottom: 10px;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 15px;
+  color: rgba(255, 255, 255, 1);
+  background-color: rgba(51, 51, 51, 1);
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+  transition: transfom 0.3s ease;
+}
+
+.tab:last-child {
+  margin-bottom: 0px;
+}
+
+.tab:hover,
+.tab:active,
+.tab:focus {
+  background-color: rgba(236, 121, 121, 1);
+  cursor: pointer;
+  transform: scale(1.05);
+}
+.tab-text h2 {
+  font-weight: 700;
+  font-size: 20px;
+  color: rgba(0, 0, 0, 1);
+  margin-top: 0px;
+  margin-bottom: 58px;
+}
+
+.tab-text {
+  display: none;
+  text-transform: uppercase;
+  margin-right: 50px;
+ 
+}
+
+.tab-text p {
+  font-weight: 400;
+  font-size: 14px;
+  color: rgba(134, 135, 139, 1);
+}
+
+
+.button-download--tab {
+  background-color: rgba(236, 121, 121, 1);
+  text-transform: capitalize;
+}
+
+.bg-tab {
+  background: url("/src/img/bg-tab2.png") no-repeat;
+  min-width: 320px;
+}
+
+.tab-switcher{
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.tab-switcher:checked + .tab-text{
+  display: block;
+}
+
+
+@media screen and (max-width:600px) {
+    .container-tabs {
+      display: block;
+       width: 100%;
+      
+    }
+
+    .tab-cards{
+        margin-bottom: 20px;
+    }
+}
+
+
